@@ -1,7 +1,7 @@
 ## TESTE-AUT-API
 
 ## Sobre o projeto
-Este Projeto foi criado com a finalidade de criar um framework para realizar testes de API. Neste projeto há 2 cenários de teste para executar requisições na API de correios, validando o resultado.
+Este Projeto foi criado com a finalidade de criar um framework para realizar testes de API, utilizando Ruby, HttParty e Cucumber. Neste projeto há 2 cenários de teste para realizar requisições na API de correios, validando o resultado.
 
 [![Ruby Version][ruby-image]][ruby-url]
 
