@@ -2,7 +2,7 @@ module ConsultaCep
   module Rest
     class ConsultaViaCep
       include HTTParty
-      base_uri URL["ApiViaCep"] + ENDPOINT["consulta_cep"]
+      base_uri ENDPOINT["consulta_cep"]
 
       def get_infos_cep(cep)
         response = self.class.get("/#{cep}/json")
