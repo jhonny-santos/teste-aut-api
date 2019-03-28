@@ -1,3 +1,5 @@
+## TESTE-AUT-API
+
 ## Sobre o projeto
 Este Projeto foi criado com a finalidade de criar um framework para realizar testes de API. Neste projeto há 2 cenários de teste para executar requisições na API de correios, validando o resultado.
 
@@ -41,17 +43,17 @@ Após a execução é gerado um arquivo .txt com o report da execução realizad
 Exemplo:
 
 
-![image][screenshot-evidence]
+![][screenshot-evidence]
 
 
 Arquivo .txt gerado
 
-![image][evicence-txt]
+![][evicence-txt]
 
 
 
 [ruby-image]: https://img.shields.io/badge/ruby-v--2.5-red.svg
 [ruby-url]: https://www.ruby-lang.org/pt/downloads/
 [screenshot-evidence]: https://user-images.githubusercontent.com/26511817/55189153-e701e880-517b-11e9-841e-72421c328cc4.png
-[evicence-txt]: ![image](https://user-images.githubusercontent.com/26511817/55189814-6512bf00-517d-11e9-95d4-68651d5e8fc0.png)
+[evicence-txt]: https://user-images.githubusercontent.com/26511817/55189814-6512bf00-517d-11e9-95d4-68651d5e8fc0.png
 
