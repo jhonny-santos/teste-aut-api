@@ -13,7 +13,7 @@ module Utils
 
   def generate_evidence(response)
     response_time = times_now
-    evidence_folder = FOLDER_PATH
+    evidence_folder = $FOLDER_PATH
     verb = response.request.http_method::METHOD
     evidence_file = "#{evidence_folder}/#{Time.now.strftime('%Hh%Mm%Ss%L')}_#{verb}.txt"
 

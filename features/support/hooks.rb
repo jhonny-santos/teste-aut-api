@@ -5,8 +5,8 @@ Before do |scenario|
   date = Time.now.strftime('%Y%m%d')
   time = Time.now.strftime('%Hh%Mm%Ss%L')
   scenario_name = scenario.name.remover_acentos.titleize.gsub(/\W/, '')
-  FOLDER_PATH = "reports/evidences/#{date}/#{time}_#{scenario_name}"
-  FileUtils.mkdir_p(FOLDER_PATH) unless Dir.exist?(FOLDER_PATH)
+  $FOLDER_PATH = "reports/evidences/#{date}/#{time}_#{scenario_name}"
+  FileUtils.mkdir_p($FOLDER_PATH) unless Dir.exist?($FOLDER_PATH)
 end
 
 After do
